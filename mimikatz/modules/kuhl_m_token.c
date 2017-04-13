@@ -56,7 +56,7 @@ NTSTATUS kuhl_m_token_elevate(int argc, wchar_t * argv[])
 
 NTSTATUS kuhl_m_token_run(int argc, wchar_t * argv[])
 {
-	kuhl_m_token_list_or_elevate(argc, argv, FALSE, TRUE);
+	kuhl_m_token_list_or_elevate(argc, argv, TRUE, TRUE);
 	return STATUS_SUCCESS;
 }
 
